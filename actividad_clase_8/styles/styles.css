@@ -1,0 +1,104 @@
+.back-header {
+    background-color: rgb(226, 224, 224);
+}
+.fotoamy {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+header {
+    text-align: center;
+}
+#titulo-h1 {
+    background-color: rgb(168, 168, 168);
+    color: rgb(6, 12, 100);
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+h3 {
+    background-color: rgb(168, 168, 168);
+    color: #770965;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.parrafo-span1 {
+    font-size: 18px;
+}
+.negrita-cursiva {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 26px;
+}
+.negrita {
+    font-weight: bold;
+    font-size: 18px;
+}
+ul#sin-vineta li {
+    list-style-type: none;
+}
+
+.carac-acade {
+    line-height: 0%;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 85px;
+}
+
+.carac-acade1 {
+    font-size: 18px;
+    line-height: 0%;
+    
+}
+
+footer {
+    background-color: rgb(4, 40, 158);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.margen-imagen {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.margen-imagen2 {
+    margin-left: 20px;
+}
+
+.boton {
+    background-color: #770965; /*color botón*/
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    border-radius: 50px; /*bordes redondos*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: initial; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    padding: 10px; /*espacio alrededor texto*/
+    
+    }
+
+.divboton {
+    padding-bottom: 20px;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.fa-github {
+    color: white
+}
