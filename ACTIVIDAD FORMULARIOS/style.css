@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.divprincipal {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(148, 93, 20);
+    
+}
+
+.morado {
+    background-color: rgb(45, 6, 82);
+    width: 35%;
+}
+
+.imagen1 img {
+    width: 370px;
+    height: 350px;
+    position: absolute;
+    left: 160px;
+}
+
+.imagen2 img {
+    width: 370px;
+    height: 350px;
+    position: absolute;
+    left: 260px;
+    top: 220px;
+}
+
+.blanco {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.formulario {
+    height: 50%;
+    width: 45%;
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 15px;
+    
+}
+
+.input label {
+    margin-bottom: 7px;
+}
+
+.xx1 label {
+    margin-top: 7px;
+}
+
+
+.input input {
+    height: 30px;
+    color: grey;
+    
+    
+}
+
+.input2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px; 
+}
+
+.dateyear {
+    display: flex;
+    flex-direction: column;
+}
+
+.dateyear2 {
+    display: flex;
+    flex-direction: row;
+      
+}
+
+.dateyear2 input {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    
+    
+}
+
+.cvc {
+    display: flex;
+    flex-direction: column;
+}
+
+.cvc input {
+    width: 100px;
+    height: 30px;
+}
+
+.button button {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(45, 6, 82);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 25px;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <div class="divprincipal">
+        <div class="morado">
+
+            <div class="imagen1">
+            <img src="tarjeta.png" alt="imagen tarjeta">
+            </div>
+
+            <div class="imagen2">
+                <img src="tarjeta.png" alt="imagen tarjeta">
+            </div>
+        </div>
+        <div class="blanco">
+            <form class="formulario" action="" method="get">
+                <div class="input">
+                    <label for="name">CARDHOLDER NAME</label>
+                    <input type="text" id="name" name="name" placeholder="e.g. Jane Aplessed">
+                </div>
+
+                <div class="input">
+                    <label for="number">CARDNUMBER</label>
+                    <input type="text" id="number" name="number" placeholder="e.g. 1234 5678 9000 0000">
+                </div>
+
+                <div class="input2">
+                    <div class="dateyear">
+                        <div class="xx1">
+                            <label for="date">EXP.DATE (MM/YY)</label>                        
+                        </div>
+                        <div class="dateyear2">
+                            <label for="year"></label>
+                            <input type="text" id="date" name="date" placeholder="MM">
+                            <input type="text" id="year" name="year" placeholder="YY">
+                        </div>
+                    </div>
+                    <div class="cvc">
+                        <div>
+                            <label for="cvc">CVC</label>
+                        </div>
+                        <div>
+                            <input type="text" id="cvc" name="cvc" placeholder="e.g. 123">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="button">
+                    <button type="submit" value="submit">Confirm</button>
+                </div>
+        </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
